@@ -1,0 +1,16 @@
+# 忽略 build/ 目录（包括其内容）
+build/
+
+# 忽略 VS Code 的工作区设置
+.vscode/
+
+# 忽略编译生成的内核映像文件
+kernel.bin
+kernel.elf
+# 忽略编译生成的中间文件
+*.o
+browse.vc.db
+# 忽略编译生成的符号文件
+browse.vc.db-shm
+
+*.asm
